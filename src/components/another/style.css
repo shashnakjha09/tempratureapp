@@ -1,0 +1,101 @@
+* {
+  background-color: rgb(30, 30, 66);
+}
+
+.main-heading {
+  color: white;
+  text-align: center;
+  height: 159px;
+  width: auto;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  height: 150px;
+  width: auto;
+  position: relative;
+  bottom: 40px;
+}
+
+.danger {
+  height: 30px;
+  right: 2px;
+  color: white;
+  background-color: tomato;
+  border: 0.5px solid tomato;
+  position: relative;
+  bottom: 5px;
+  border-radius: 2px;
+}
+.card-main {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  text-align: center;
+  color: black;
+  height: 300px;
+  width: 250px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 1px 1px 5px 5px rgba(194, 192, 192, 0.3);
+}
+.card > div {
+  background-color: white;
+}
+
+.card > div > i {
+  background-color: white;
+}
+.temprature > span {
+  position: relative;
+  bottom: 6px;
+  background-color: white;
+  font-size: 20px;
+  color: orange;
+}
+
+.Location {
+  font-size: 22px;
+  color: rgb(109, 108, 108);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 10px;
+}
+
+#country {
+  position: relative;
+  left: 3px;
+  font-size: 15px;
+  border: 1px solid orange;
+  background-color: orange;
+  border-radius: 10px;
+}
+
+.temprature {
+  font-size: 30px;
+  color: rgb(22, 22, 22);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 30px;
+  font-weight: 700;
+}
+
+.weather-codition {
+  font-size: 22px;
+  color: rgb(22, 22, 22);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 30px;
+}
+.weather-icon {
+  font-size: 22px;
+  padding-top: 20px;
+  color: rgb(87, 85, 85);
+  font-size: 40px;
+}
+.wind-speed {
+  font-size: 22px;
+  color: rgb(22, 22, 22);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 50px;
+}
